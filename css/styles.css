@@ -380,7 +380,9 @@ footer {
 }
 
 .footer__content {
-  width: 40%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
   margin: 20px 0px;
 }
 
@@ -420,19 +422,21 @@ footer a {
 .footer__content--contact {
   display: flex;
   flex-direction: column;
+  justify-content: center;
   align-items: center;
   margin-left: 20px;
 }
 
+
+
 footer a img{
     width: 12em;
     height: 2em;
-    /*margin-top: 2em;*/
 }
+
 footer p {
     color: whitesmoke;
-    /*margin-top: 1.5em;*/
-    margin: 20px 0px;
+    margin-top: 20px
 }
 
 #footer__links{
@@ -486,5 +490,8 @@ footer p {
   }
   .products__display .display__container .product__item .product1 {
     order: 0
+  }
+  .footer__content--introduction {
+    padding: 0px 20px;
   }
 }
