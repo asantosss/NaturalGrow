@@ -116,12 +116,8 @@ en cuanto al logo */
 }
 
 .products__information {
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
   padding: 30px;
   margin: 20px 0px;
-  margin-bottom: 50px;
   background-color: white;
 }
 
@@ -129,6 +125,7 @@ en cuanto al logo */
   display: flex;
   justify-content: space-around;
   align-items: center;
+  flex-wrap: wrap;
 }
 
 .presentation__title {
@@ -139,6 +136,7 @@ en cuanto al logo */
 
 .detail__photo {
   display: flex;
+  margin-bottom: 20px;
 }
 
 .detail__photo img {
@@ -186,7 +184,7 @@ en cuanto al logo */
 }
 
 .detail__description {
-  width: 40%;
+  width: 50%;
   padding: 0px 25px 25px 25px;
 }
 
@@ -262,7 +260,7 @@ en cuanto al logo */
   flex-direction: column;
   justify-content: center;
   align-items: center;
-  padding-bottom: 50px;
+  margin-bottom: 100px;
 }
 
 .products__display .display__title {
@@ -275,7 +273,7 @@ en cuanto al logo */
 }
 
 .products__display .display__title .leaf {
-  margin: 0px 10px;
+  margin: 0px 25px;
 }
 
 .products__display .display__title .leaf1 {
@@ -285,7 +283,7 @@ en cuanto al logo */
 .products__display .display__title h3 {
   width: 75%;
   padding: 20px;
-  margin: 20px;
+  margin: 30px;
   font-weight: lighter;
   text-align: center;
   font-size: 20px;
@@ -383,11 +381,22 @@ footer {
   display: flex;
   flex-direction: column;
   align-items: center;
-  margin: 20px 0px;
+  margin: 30px 0px;
 }
 
 .footer__content .content__title {
   font-size: 20px;
+  letter-spacing: 2px;
+  font-family: 'Montserrat', sans-serif;
+  color: #62a54c;
+}
+
+.footer__content .content_title--contact {
+  padding-right: 80px;
+}
+
+.footer__content .content__title .leaf {
+  color: #1e5c0a;
 }
 
 .footer__content img {
@@ -399,9 +408,8 @@ footer {
   margin: 8px 0px;
 }
 
-.footer__content ul li {
+.footer__content--contact ul li {
   display: flex;
-  align-items: center;
   text-decoration: none;
   padding: 5px 0px;
 }
@@ -422,12 +430,13 @@ footer a {
 .footer__content--contact {
   display: flex;
   flex-direction: column;
-  justify-content: center;
-  align-items: center;
   margin-left: 20px;
 }
 
-
+.footer__content--ofrecemos ul li {
+  list-style-type: circle;
+  margin: 5px 10px;
+}
 
 footer a img{
     width: 12em;
@@ -443,12 +452,7 @@ footer p {
     margin-top: 2em;
    
 }
-.footer li{
-    list-style-type: none;
-    margin-right: 1.5em;
-    display: inline-block;
-    
-}
+
 .icon{
     width: 2em;
 }
@@ -479,19 +483,197 @@ footer p {
 
 /* fin estilos footer */
 
-@media only screen and (max-width: 768px) {
+@media only screen and (max-width: 1245px) {
 
+  .products__presentation .detail__description {
+    order: 0;
+    width: 100%;
+  }
+
+  .products__presentation .detail__additional-info {
+    width: 100%;
+    justify-content: center;
+    flex-direction: row;
+  }
+
+  .products__presentation .detail__additional-info a {
+    padding: 10px 20px;
+    color: #38AB63;
+    background-color: white;
+    border-color: #38AB63;
+    box-shadow: none;
+  }
+
+  .products__presentation .detail__additional-info a:hover {
+    background-color: rgba(14, 107, 51, 0.9);
+    color: white;
+    border-color: white;
+    box-shadow: 0px 0px 3px inset #006A29;
+  }
+}
+
+@media only screen and (max-width: 539px) {
+  .products__presentation .detail__description {
+    padding: 5px;
+    padding-bottom: 0px;
+  }
+
+  .products__presentation .detail__additional-info {
+    flex-direction: column
+  }
+
+  .products__display .display__container {
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .products__display .display__container .product__item {
+    width: 75%;
+    margin: 20px 0px;
+  }
+
+  .products__display .display__container .product2 {
+    order: -1;
+  }
+
+  .products__display .display__title {
+    width: 100%;
+  }
+
+  .products__display .display__title h3 {
+    width: 100%;
+    border-radius: 0px;
+    padding: 20px 10px;
+    margin-top: 0px;
+  }
+
+  .products__display .display__title h3 .leaf {
+    margin: 0px 5px;
+  }
+
+  .footer__content--contact {
+    margin: 10px 30px 30px 30px;
+  }
+
+  .footer__content--contact .content_title--contact {
+    padding-right: 0px;
+  }
+  
+}
+
+@media only screen and (max-width: 360px) {
+  #logo {
+    width: 175px;
+    height: auto;
+  }
+
+  .presentation__banner .products__title {
+    padding: 35px 15px;
+  }
+
+  .detail__photo img {
+    height: 300px;
+  }
+
+  .products__information {
+    padding: 30px 20px;
+  }
+  
+  .products__presentation .detail__photo  .flip-card {
+    background-color: transparent;
+    width: 250px;
+    height: 350px;
+    perspective: 1000px; /* 3D effect */
+  }
+
+  .products__presentation .detail__additional-info a {
+    margin: 10px 0px;
+  }
+
+}
+
+
+/*
+@media only screen and (max-width: 1050px) {
   .products__presentation {
     flex-direction: column;
+  }
+
+  .products__presentation .detail__description {
+    order: 0;
+    width: 100%;
+  }
+
+  .products__presentation .detail__additional-info {
+    width: 100%;
+    justify-content: space-around;
+    order: 2;
+    flex-direction: row;
+  }
+
+  .products__presentation .detail__additional-info a {
+    padding: 10px 20px;
+    color: #38AB63;
+    background-color: white;
+    border-color: #38AB63;
+    box-shadow: none;
+  }
+
+  .products__presentation .detail__additional-info a:hover {
+    background-color: rgba(14, 107, 51, 0.9);
+    color: white;
+    border-color: white;
+    box-shadow: 0px 0px 3px inset #006A29;
+  }
+
+  .detail__additional-info a .leaf {
+    margin-left: 5px
+  }
+}
+*/
+
+@media only screen and (max-width: 768px) {
+
+  .products__title {
+    text-align: center;
+  }
+
+  .products__presentation .detail__additional-info a {
+    padding: 10px 20px;
+  }
+
+  .products__display {
+    margin-bottom: 30px;
+  }
+
+  .products__display .display__container {
+    width: 100%;
+    flex-wrap: wrap;
   }
 
   .products__display .display__container .product__item {
     flex-direction: column;
   }
+
   .products__display .display__container .product__item .product1 {
     order: 0
   }
+
+  .products__display .display__container .product__item .item__content {
+    width: 100%;
+  }
+
+  .products__display .display__container .product__item .item__button {
+    text-align: center;
+    width: 80%;
+    margin-bottom: 10px;
+    position: absolute;
+    bottom: 0px;
+  }
+
   .footer__content--introduction {
     padding: 0px 20px;
+    margin-bottom: 0px;
+    text-align: center;
   }
 }
