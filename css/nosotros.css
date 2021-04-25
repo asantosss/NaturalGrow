@@ -1,0 +1,206 @@
+/* NAVBAR */
+
+nav {
+    margin-bottom: 10px;
+  }
+  
+  #logo {
+    width: 10em;
+    height: 1.5em;
+  }
+  
+  #navbar__butons {
+    margin-top: 1em;
+    margin-left: auto;
+  }
+  
+  /* estilos hover en desktop de los botones */
+  .nav-link {
+    margin:0 0.8em;
+    width: auto;
+    border: 2px solid white;
+    border-radius: 5px;
+  }
+  
+  .nav-link:hover {
+    transition: 1s;
+    border: 2px solid #38AB63;
+    border-radius: 10px;
+    box-shadow: 0px 0px 3px silver;
+  
+  }
+  
+  /* estilos para que los botones en responsive tengan espacio
+  en cuanto al logo */
+  
+  
+  @media (max-width:780px) {
+      
+    .collapse {
+  
+        margin-top: 2em!important;
+  
+    }
+  }
+  
+  /* estilos para el collapse en pantallas chicas */
+  
+  @media (max-width: 991px) {
+    .navbar-toggler {
+        width: 3em;
+        margin-top: 0.5em;
+    }
+  
+    .nav-link:hover {
+      padding-left: 20px;
+    }
+  }
+  
+  @media(max-width: 325px) {
+  
+    .navbar-toggler {
+        width: 2em;
+        margin-top: 0.5em;
+    }
+  
+    .navbar-toggler-icon {
+  
+        width: 0.8em !important;
+    }
+  }
+
+  /* FOOTER */
+
+footer {
+    color: white;
+    background-color: #32751C;
+  }
+  
+  .footer__content {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: 30px 0px;
+  }
+  
+  .footer__content .content__title {
+    font-size: 20px;
+    letter-spacing: 2px;
+    font-family: 'Montserrat', sans-serif;
+    color: #62a54c;
+  }
+  
+  .footer__content .content_title--contact {
+    padding-right: 80px;
+  }
+  
+  .footer__content .content__title .leaf {
+    color: #1e5c0a;
+  }
+  
+  .footer__content img {
+    mix-blend-mode: luminosity;
+  }
+  
+  .footer__content ul {
+    padding: 0px;
+    margin: 8px 0px;
+  }
+  
+  .footer__content--contact ul li {
+    display: flex;
+    text-decoration: none;
+    padding: 5px 0px;
+  }
+  
+  .footer__content ul li span {
+    padding-left: 10px;
+  }
+  
+  .footer__icon {
+    font-size: 25px;
+  }
+  
+  footer a {
+    text-decoration: none;
+    color: white
+  }
+  
+  footer a img{
+    width: 12em;
+    height: 2em;
+  }
+  
+  footer a:hover {
+    color: #38AB63;
+  }
+  
+  .footer__content--contact {
+    display: flex;
+    flex-direction: column;
+    margin-left: 20px;
+  }
+  
+  .footer__content--ofrecemos ul li {
+    list-style-type: circle;
+    margin: 5px 10px;
+  }
+  
+  footer p {
+      color: whitesmoke;
+      margin-top: 20px
+  }
+
+  /* RESPONSIVE */
+
+@media only screen and (max-width: 1245px) {
+
+    .products__presentation .detail__additional-info {
+      width: 100%;
+      justify-content: flex-end;
+      flex-direction: row;
+    }
+  
+    .products__presentation .detail__additional-info a {
+      padding: 10px 20px;
+      color: #38AB63;
+      background-color: white;
+      border-color: #38AB63;
+      box-shadow: none;
+    }
+  
+    .products__presentation .detail__additional-info a:hover {
+      background-color: rgba(14, 107, 51, 0.9);
+      color: white;
+      border-color: white;
+      box-shadow: 0px 0px 3px inset #006A29;
+    }
+  }
+  
+  
+  /* RESPONSIVE */
+
+  @media only screen and (max-width: 540px) {
+  
+    .footer__content--introduction {
+      padding: 0px 20px;
+      margin-bottom: 0px;
+      text-align: center;
+    }
+  
+    .footer__content--contact {
+      margin: 10px 30px 30px 30px;
+    }
+  
+    .footer__content--contact .content_title--contact {
+      padding-right: 0px;
+    }
+  }
+  
+  
+  @media only screen and (max-width: 360px) {
+    #logo {
+      width: 175px;
+      height: auto;
+    }
+  }
