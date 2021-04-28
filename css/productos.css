@@ -87,7 +87,7 @@ en cuanto al logo */
 .presentation__banner {
   display: flex;
   flex-direction: column;
-  background-image: url("/assets/imagenes/arunas-naujokas-UTvJNeI9nVg-unsplash.jpg");
+  background-image: url("../assets/imagenes/arunas-naujokas-UTvJNeI9nVg-unsplash.jpg");
   min-height: 100vh;
   background-size: cover;
   background-position: center;
