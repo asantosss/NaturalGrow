@@ -1,3 +1,16 @@
+#32751C
+#6B9127
+#38AB63
+
+* {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0px;
+  font-family: -apple-system,system-ui,BlinkMacSystemFont,"Segoe UI",Roboto,"Helvetica Neue",Arial,sans-serif;
+}
+
 /* NAVBAR */
 
 nav {
@@ -69,7 +82,143 @@ nav {
     }
   }
 
-  /* FOOTER */
+/* NOSOTROS */
+
+.nosotros__title {
+    position: relative;
+    margin: 50px auto;
+    text-align: center;
+}
+
+/*
+.nosotros__title::before {
+    content: "";
+    position: absolute;
+    bottom: -450px;
+    left: 16%;
+    height: 10px;
+    width: 850px; 
+    border-radius: 10%;
+    background-color: rgba(56, 171, 99, 0.9);
+    transform: rotate(90deg)
+}
+*/
+
+.nosotros__title h2, .nosotros__historia h2 {
+    font-size: 32px;
+    text-align: center;
+    font-weight: 300;
+}
+
+.nosotros__banner {
+    width: 85%;
+    border-radius: 50% 0% 50% 0%;
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 90vh;
+    background-color:rgba(50, 117, 29, 0.9);
+    background: url(/assets/imagenes/markus-spiske-vrbZVyX2k4I-unsplash.jpg);
+    background-size: cover;
+    background-position: center;
+    margin: 100px auto;
+    margin-top: 50px;
+    border-top: 50px solid rgba(56, 171, 99, 0.6);
+    border-bottom: 50px solid rgba(56, 171, 99, 0.6);
+    box-shadow: 0px 0px 5px silver;
+    transition: transform .9s, border-color .9s, box-shadow .9s;
+}
+
+.nosotros__banner:hover {
+    border-color: rgba(56, 171, 99, 0.9);
+    transform: scale(1.05);
+    box-shadow: 0px 0px 20px gray;
+}
+
+.background__overlay {
+    height: 100%;
+    width: 100%;
+    top: 0;
+    left: 0;
+    position: absolute;
+    border-radius: 50% 0% 50% 0%;
+    background-color: transparent;
+    background-image: linear-gradient(0deg, #32751D 0%, #61CE70 100%);
+    opacity: 0.61;
+    transition: opacity .9s;
+}
+
+.nosotros__banner:hover .background__overlay {
+  border-color: rgba(56, 171, 99, 0.9);
+  opacity: 0.8
+}
+
+.nosotros__banner .banner__text {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 50%;
+    text-align: center;
+    color: white;
+    z-index: 1;
+}
+
+.nosotros__banner .banner__text span {
+    font-size: 28px;
+    font-weight: 400;
+    margin-bottom: 50px;
+}
+
+.nosotros__banner .banner__text p {
+    font-size: 18px;
+}
+
+.nosotros__historia {
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-bottom: 100px;
+}
+
+.nosotros__historia h2 {
+  margin-bottom: 50px;
+}
+
+.historia__content {
+  width: 80%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 15px;
+  font-weight: 300;
+}
+
+.historia__content .content__text {
+  width: 45%;
+  line-height: 30px;
+}
+
+.historia__content .content__text span {
+  font-weight: 500;
+  color: #38AB63;
+}
+
+.historia__content .content__text p:nth-child(2) {
+  margin: 0px;
+}
+
+.historia__content img {
+  width: 100%;
+  margin-left: 50px;
+}
+
+
+
+
+/* FOOTER */
 
 footer {
     color: white;

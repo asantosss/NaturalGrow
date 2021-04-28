@@ -7,9 +7,113 @@
     <meta name="description" content="Natural Grow, fertilizantes 100% orgánicos: el producto que tu cultivo necesita. Nos dedicamos a la fabricación de una amplia gama de productos que cubren todas las necesidades de tus plantas. Ofrecemos a nuestros clientes un servicio de asesoramiento personal vía whatsapp para que sus plantas crezcan sanas.">
     <meta name="keywords" content="Natural Grow, Fertilizantes, Fertilizante orgánico, cultivo marihuana">
     <meta name="author" content="Vista realizada por Ana Belén Barroero">
-    <link rel="icon" href="assets/Logos/ico.png">
+    <link rel="icon" href="/assets/Logos/ico.png">
+
+     <!-- Animate Css, Fontawesome, Bootstrap, Lightbox -->
+     <link rel="stylesheet" href="/node_modules/animate.css/animate.min.css">
+     <link rel="stylesheet" href="/node_modules/@fortawesome/fontawesome-free/css/all.min.css">
+     <link rel="stylesheet" href="/node_modules/bootstrap/dist/css/bootstrap.min.css">
+     <script defer src="/node_modules/@fortawesome/fontawesome-free/js/all.min.js"></script>
+     <script defer src="/node_modules/bootstrap/dist/js/bootstrap.bundle.min.js"></script>
+
+     <link rel="stylesheet" href="/css/nosotros.css">
 </head>
 <body>
+    <nav class="container navbar navbar-expand-lg navbar-light">
+        <div class="container-fluid">
+            <a class="navbar-brand" href="index.html">
+                <img class="animate__animated animate__backInUp" id="logo" src="/assets/Logos/Logo.png" alt="Logo">
+            </a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
+                <ul class="navbar-nav" id="navbar__butons">
+                    <li>
+                        <a class="nav-link" aria-current="page" href="#">Home</a>
+                    </li>
+                    <li>
+                        <a class="nav-link" href="/index.html">Productos</a>
+                    </li>
+                    <li>
+                        <a class="nav-link active" href="pages/nosotros.html">Nosotros</a>
+                    </li>
+                    <li>
+                        <a class="nav-link" href="#" tabindex="-1">Contacto</a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+    <section class="nosotros__title">
+        <h2>Nuestro propósito</h2>
+    </section>
+    <section class="nosotros__banner">
+        <div class="background__overlay"></div>
+        <div class="banner__text">
+            <span>Combinar la tecnología del futuro con la sabiduría de la Tierra</span>
+            <p>Somos un grupo dedicado al agro que cree en un futuro más verde para nuestro planeta. Nos divertimos trabajando juntos para llevar a tu casa los productos naturales de la más alta calidad, y lo que nos motiva es saber que nuestro trabajo se transformará en la vida de tu cultivo y tus plantas.</p>
+        </div>
+    </section>
+    <section class="nosotros__historia">
+        <h2>Nuestra historia</h2>
+        <div class="historia__content">
+            <div class="content__text">
+                <p><span>Natural Grow</span> comenzó hace más de dos décadas dedicado a la estimulación de los cultivos en los campos de nuestro país.</p>
+                <p>Frente al gran crecimiento de la empresa, en 2020 Natural Grow vió la oportunidad de lanzar su primer producto al mercado de consumo masivo. Así fue como nació Humi, un fertilizante que ya es utilizado para distintos cultivos como huertas urbanas, Cannabis, y para distintas siembras a nivel productivo. Humi es solo el primero de muchos productos que Natural Grow seguirá lanzando al mercado.</p>
+            </div>
+            <img src="/assets/imagenes/crystalweed-cannabis-F-ZXqLioXxg-unsplash.jpg"alt="foto" />
+        </div>
+    </section>
     
+    <footer class="footer">
+        <div class="container">
+            <div class="row">
+                <div class="col footer__content footer__content--introduction">
+                    <a href="index.html">
+                        <img src="/assets/Logos/Logo.png" alt="">
+                    </a>
+                    <p>Somos un equipo de emprendedores formado de manera multidisciplinaria que trabajamos juntos para algo que realmente creemos que vale la pena: generar vida.</p>
+                </div>
+                <div class="col footer__content footer__content--contact">
+                    <span class="content__title content_title--contact">Contacto <i class="fas fa-leaf leaf"></i></span>
+                    <ul>
+                        <li>
+                            <a href="https://web.whatsapp.com/send?phone=541123263133&text=Hola,%20reci%C3%A9n%20estuve%20en%20su%20sitio%20web" target="_blank">
+                                <i class="fab fa-whatsapp footer__icon"></i>
+                            </a>
+                            <span>+ 54 11 5326-8722</span>
+                        </li>
+                        <li>
+                            <a href="https://www.instagram.com/naturalgrowarg/" target="_blank">
+                                <i class="fab fa-instagram footer__icon"></i>
+                            </a>
+                            <span>naturalgrowarg</span>
+                        </li>
+                        <li>
+                            <a href="https://www.facebook.com/naturalgrowarg" target="_blank">
+                                <i class="fab fa-facebook footer__icon"></i>
+                            </a>
+                            <span>Natural Grow</span>
+                        </li>
+                        <li>
+                            <a href="mailto:info@naturalgrow.com.ar" target="_blank">
+                                <i class="far fa-envelope footer__icon"></i>
+                            </a>
+                            <span>info@naturalgrow.com.ar</span>
+                        </li>
+                    </ul>
+                </div>
+                <div class="col d-none d-lg-block footer__content footer__content--ofrecemos">
+                    <span class="content__title">Qué ofrecemos <i class="fas fa-leaf leaf leaf1"></i></span>
+                    <ul>
+                        <li>Todos los productos que tus plantas pueden necesitar según su etapa y condición.</li>
+                        <li>Asesoramiento personalizado para el desarrollo adecuado de tu cultivo.</li>
+                        <li>Ser parte de la comunidad de argentina más grande de cultivo de cannabis.</li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </footer>
 </body>
 </html>
