@@ -98,6 +98,10 @@
     color: #32751C;
 }
 
+.mas__distribuidores ul {
+    padding: 0px;
+}
+
 .mas__distribuidores li {
     list-style-type: none;
 }
@@ -121,21 +125,20 @@ li .dist__button:hover{
     margin-bottom: 80px;
 }
 
-.info__text{
+.info__text {
     text-align: center;
     margin-top: 2em;
     margin-bottom: 2em;
+    padding: 0px 10px;
     color: #6B9127;
     font-family: 'Recursive',sans-serif;
 }
 
 .info__image {
     width: 100%;
-
 }
 
-
-.center{
+.center {
     text-align: center;
     margin: 30px 0px;
 }
@@ -153,4 +156,14 @@ li .dist__button:hover{
 
 #boton__info:hover{
     background-color:#6B9127 ;
+}
+
+@media only screen and (max-width: 768px) {
+    .info p {
+        text-align: center;
+    }
+    
+    .center {
+        margin: 50px 0px;
+    }
 }
