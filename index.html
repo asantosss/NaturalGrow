@@ -1,204 +1,296 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Natural Grow | Nuestros productos</title>
-    <meta name="description" content="Natural Grow, fertilizantes 100% orgánicos: el producto que tu cultivo necesita. Nos dedicamos a la fabricación de una amplia gama de productos que cubren todas las necesidades de tus plantas. Ofrecemos a nuestros clientes un servicio de asesoramiento personal vía whatsapp para que sus plantas crezcan sanas.">
-    <meta name="keywords" content="Natural Grow, Fertilizantes, Fertilizante orgánico, cultivo marihuana">
-    <meta name="author" content="Vista realizada por Ana Belén Barroero">
-    <link rel="icon" href="assets/Logos/ico.png">
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Natural Grow</title>
+  <meta name="description" content="Natural Grow, fertilizantes 100% orgánicos: el producto que tu cultivo necesita. Nos dedicamos a la fabricación de una amplia gama de productos que cubren todas las necesidades de tus plantas. Ofrecemos a nuestros clientes un servicio de asesoramiento personal vía whatsapp para que sus plantas crezcan sanas.">
+  <meta name="keywords" content="Natural Grow, Fertilizantes, Fertilizante orgánico, Cultivo marihuana">
+  <link rel="icon" href="assets/Logos/ico.png">
+  <meta name="author" content="Vista realizada por Alejandro Santos">
 
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/lightbox2/2.11.3/images/close.png">
+  <!--Font-->
+  <link rel="preconnect" href="https://fonts.gstatic.com">
+  <link href="https://fonts.googleapis.com/css2?family=Recursive:wght@300&display=swap" rel="stylesheet">
 
+  <!-- Animate Css, Fontawesome, Bootstrap, Lightbox -->
+  <link rel="stylesheet" href="libraries/animate.css/animate.min.css" />
 
-    <!-- Fonts -->
-    <link rel="preconnect" href="https://fonts.gstatic.com">
-    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@500&display=swap" rel="stylesheet"> 
+  <link rel="stylesheet" href="libraries/fontawesome-5.15.3/css/all.min.css">
 
-    <!-- Animate Css, Fontawesome, Bootstrap, Lightbox -->
-    <!--<link rel="stylesheet" href="/node_modules/animate.css/animate.min.css">-->
-    <link rel="stylesheet" href="libraries/animate.css/animate.min.css" />
+  <link href="libraries/bootstrap-5.0.0/css/bootstrap.min.css" rel="stylesheet">
 
-    <!--<link rel="stylesheet" href="/node_modules/@fortawesome/fontawesome-free/css/all.min.css">-->
-    <link rel="stylesheet" href="libraries/fontawesome-5.15.3/css/all.min.css">
-
-    <!--<link rel="stylesheet" href="/node_modules/bootstrap/dist/css/bootstrap.min.css">-->
-    <link href="libraries/bootstrap-5.0.0/css/bootstrap.min.css" rel="stylesheet">
+  <script defer src="libraries/fontawesome-5.15.3/js/all.min.js"></script>
     
-    <!--<link href="/node_modules/lightbox2/dist/css/lightbox.min.css" rel="stylesheet" />-->
-    <link href="libraries/lightbox-2.11.3/css/lightbox.min.css" rel="stylesheet" />
+  <script src="libraries/bootstrap-5.0.0/js/bootstrap.bundle.min.js"></script>
 
-    <!--<script defer src="/node_modules/@fortawesome/fontawesome-free/js/all.min.js"></script>-->
-    <script defer src="libraries/fontawesome-5.15.3/js/all.min.js"></script>
-      
-    <!--<script defer src="/node_modules/bootstrap/dist/js/bootstrap.bundle.min.js"></script>-->
-    <script src="libraries/bootstrap-5.0.0/js/bootstrap.bundle.min.js"></script>
+  <link rel="stylesheet" href="css/navbar-footer.css">
+  <link rel="stylesheet" href="css/index.css">
 
-    <!--<script defer src="node_modules/lightbox2/dist/js/lightbox-plus-jquery.min.js"></script>-->
-    <script defer src="libraries/lightbox-2.11.3/js/lightbox-plus-jquery.min.js"></script>
+</head>
 
-    <link rel="stylesheet" href="css/navbar-footer.css">
-    <link rel="stylesheet" href="css/productos.css">
-    
-</head>   
 <body>
-    <nav class="container navbar navbar-expand-lg navbar-light">
-        <div class="container-fluid">
-            <a class="navbar-brand" href="index.html">
-                <img class="animate__animated animate__backInUp" id="logo" src="assets/Logos/Logo.png" alt="Logo">
-            </a>
-            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
-                <span class="navbar-toggler-icon"></span>
-            </button>
-            <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
-                <ul class="navbar-nav" id="navbar__butons">
-                    <li>
-                        <a class="nav-link" aria-current="page" href="index.html">Home</a>
-                    </li>
-                    <li>
-                        <a class="nav-link active" href="index.html">Productos</a>
-                    </li>
-                    <li>
-                        <a class="nav-link" href="pages/nosotros.html">Nosotros</a>
-                    </li>
-                    <li>
-                        <a class="nav-link" href="#" tabindex="-1">Contacto</a>
-                    </li>
-                </ul>
-            </div>
+  <nav class="container navbar navbar-expand-lg navbar-light">
+    <div class="container-fluid">
+        <a class="navbar-brand" href="index.html">
+            <img class="animate__animated animate__backInUp" id="logo" src="assets/Logos/Logo.png" alt="Logo">
+        </a>
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
+            <ul class="navbar-nav" id="navbar__butons">
+                <li>
+                    <a class="nav-link" aria-current="page" href="index.html">Home</a> 
+                </li>
+                <li>
+                    <a class="nav-link active" href="pages/productos.html">Productos</a>
+                </li>
+                <li>
+                    <a class="nav-link" href="pages/nosotros.html">Nosotros</a>
+                </li>
+                <li>
+                    <a class="nav-link" href="pages/contacto.html" tabindex="-1">Contacto</a>
+                </li>
+            </ul>
         </div>
-    </nav>
+    </div>
+</nav>
 
-    <section class="presentation__banner">
-        <div class="products__title">
-            <img src="assets/Logos/Chico fondo blanco.png" alt="Natural Grow logo">
-            <h3>Humi</h3>
-            <p>El fertilizante que vino a solucionar tus problemas</p>
+
+  <!-- comienzo main  -->
+  <main class="main">
+    <!-- carousel  -->
+    <div id="carouselExampleCaptions" class="carousel slide" data-bs-ride="carousel">
+      <div class="carousel-inner">
+        <div class="carousel-item active">
+          <img src="assets/imagenes/Portada_2.png" class="d-block w-100" alt="">
+          <div class="carousel-caption  d-md-block">
+            <h1>Humi</h1>
+            <p>Es un producto 100% orgánico fabricado a base de Lixiviado de Humus de lombriz californiana.
+              Está potenciado con Plasma Marino, que aporta más de 75 minerales que
+              contribuirán de manera sinérgica al desarrollo de tu cultivo.
+
+            </p>
+            <a id="boton_portada" type="button" href="pages/productos.html">Más info <i class="fas fa-leaf"></i></a>
+          </div>
         </div>
+        <div class="carousel-item">
+          <img src="assets/imagenes/Portada_3.jpg" class="d-block w-100" alt="Una persona con un cultivo en sus manos">
+          <div class="carousel-caption  d-md-block">
+            <h1>El empuje que tu cultivo necesita</h1>
+            <p>Nos dedicamos a la fabricación de una amiplia gama de productos que cubren todas las necesidades de tus
+              plantas.
+              Ofrecemos a nuestros clientes un servicio de asesoramiento personal para que sus plantas crezcan sanas.
+            </p>
+            <a id="boton_portada" type="button" href="pages/contacto.html"> Contactános <i class="fas fa-leaf"></i></a>
+          </div>
+        </div>
+        <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleCaptions"
+        data-bs-slide="prev">
+          <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+          <span class="visually-hidden">Previous</span>
+      </button>
+      <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleCaptions"
+        data-bs-slide="next">
+          <span class="carousel-control-next-icon" aria-hidden="true"></span>
+          <span class="visually-hidden">Next</span>
+      </button>
+      </div>
+    
+    </div>
+
+
+
+    <section class="distribuidores">
+      <h2 class="distribuidores__text">Podés encontrar nuestros productos en los siguientes lugares</h2>
+
+      <div class="container" class="main">
+        <div class="row dist__1">
+          <div class="col-12 col-md-4 col-lg-4 distribuidor">
+            <div class="distribuidores__name">
+              <img class="dist__image" src="assets/Logos/dist_1.png" alt="Kaizen Growshop logo">
+              <h6 class="dist__text">Kaizen Growshop</h6>
+            </div>
+            <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3285.391827989457!2d-58.489949484217824!3d-34.568950863167515!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x95bcb7c4ddf08a95%3A0xee1e2d7b5ef6f6ba!2sKaizen%20Growshop!5e0!3m2!1ses!2sar!4v1620031214925!5m2!1ses!2sar" width="400" height="300"  allowfullscreen="" loading="lazy"></iframe>
+          </div>
+          <div class="col-12 col-md-4 col-lg-4 distribuidor">
+            <div class="distribuidores__name name__margin">
+              <img class="dist__image" src="assets/Logos/dist_2.png" alt="Humos Caseros logo">
+              <h6 class="dist__text">Humos Caseros</h6>
+            </div>
+            <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3283.947424145098!2d-58.564995884216884!3d-34.6054909651002!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x95bcb903848b17b3%3A0x10b97ff77a3a5122!2sHumos%20Caseros%20Grow%20Shop!5e0!3m2!1ses!2sar!4v1620031282391!5m2!1ses!2sar" width="400" height="300"  allowfullscreen="" loading="lazy"></iframe>
+          </div>
+          <div class="col-12 col-md-4 col-lg-4 distribuidor">
+            <div class="distribuidores__name name__margin">
+              <img class="dist__image" src="assets/Logos/dist_3.png" alt="Maria Chuzena Growshop logo">
+              <h6 class="dist__text">Maria Chuzena Growshop</h6>
+            </div>
+            <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3280.197294837357!2d-58.3250198842147!3d-34.70020337011771!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x95a332f5e0d699a1%3A0x4c5f675c572f756!2sMar%C3%ADa%20Chuzena%20Grow%20Shop!5e0!3m2!1ses!2sar!4v1620031344532!5m2!1ses!2sar" width="400" height="300"  allowfullscreen="" loading="lazy"></iframe>
+          </div>
+        </div>
+      </div>
+
+      <div class="container" class="main">
+        <div class="row dist__2">
+          <div class="col-12 col-md-4 col-lg-4 distribuidor">
+            <div class="distribuidores__name name__margin">
+              <img class="dist__image" src="assets/Logos/dist_4.png" alt="Aspen Growshop logo">
+              <h6 class="dist__text">Aspen Growshop</h6>
+            </div>
+            <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3284.60620694053!2d-58.50921618421734!3d-34.58882946421868!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x95bcb7b571b92581%3A0x29fba9270676370e!2sAspen%20Grow%20Shop!5e0!3m2!1ses!2sar!4v1620031388738!5m2!1ses!2sar" width="400" height="300"  allowfullscreen="" loading="lazy"></iframe>
+          </div>
+          <div class="col-12 col-md-4 col-lg-4 distribuidor">
+            <div class="distribuidores__name name__margin">
+              <img class="dist__image" src="assets/Logos/dist_5.png" alt="Distribuidora 1422 logo">
+              <h6 class="dist__text">1422 Distribuidora</h6>
+            </div>
+            <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3283.0501253650964!2d-58.41665748421629!3d-34.62817356630068!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x95bccb01b52c366d%3A0x4bb93497c3a24169!2sDistribuidora%2014%2022!5e0!3m2!1ses!2sar!4v1620031434037!5m2!1ses!2sar" width="400" height="300"  allowfullscreen="" loading="lazy"></iframe>
+          </div>
+          <div class="col-12 col-md-4 col-lg-4 distribuidor">
+            <div class="distribuidores__name name__margin">
+              <img class="dist__image" src="assets/Logos/dist_6.png" alt="Distribuidora POP logo">
+              <h6 class="dist__text">Distribuidora POP</h6>
+            </div>
+            <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3286.4224043071213!2d-58.51768398421852!3d-34.542858961788724!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x95bcb5dd686a53a1%3A0x4e5c56802b177a19!2sDistribuidora%20Pop!5e0!3m2!1ses!2sar!4v1620031474992!5m2!1ses!2sar" width="400" height="300" allowfullscreen="" loading="lazy"></iframe>
+          </div>
+        </div>
+      </div>
+
+      <div class="container mas__distribuidores">
+        <h4>También podés encontrarnos en <i class="fas fa-leaf"></i> </h4>
+        <div class="row">
+          <div  class="col-12 col-md-4 col-lg-4">
+            <ul>
+              <li>
+                <a target="_blank" class="dist__button" style="text-decoration: none;" href="https://goo.gl/maps/WGPp8x1fizJaA6n18">Smart Grow</a>
+              </li>
+              <li>
+                <a target="_blank"  class="dist__button" style="text-decoration: none;" href="https://g.page/eljardindezion?share">El Jardin de Zion</a>
+              </li>
+              <li>
+                <a target="_blank"  class="dist__button" style="text-decoration: none;" href="https://goo.gl/maps/SadkX3TXMxmRsBjg9">Ganesha Growshop</a>
+              </li>
+              <li>
+                <a target="_blank"  class="dist__button" style="text-decoration: none;" href="https://www.facebook.com/pages/category/Nurseries---Gardening-Store/Grow-del-pino-104293654701269/">Grow Del Pino</a>
+              </li>
+            </ul>
+          </div>
+
+          <div class="col-12 col-md-4 col-lg-4"> 
+            <ul>
+              <li><!--width: 100%-->
+                <a target="_blank"  class="dist__button" style="text-decoration: none;" href="https://g.page/ramos-grow?share">Ramos Grow</a>
+              </li>
+              <li>
+                <a target="_blank" class="dist__button" style="text-decoration: none;" href="https://g.page/gapgrowshop?share">Gap Growshop</a>
+              </li>
+              <li>
+                <a target="_blank"  class="dist__button" style="text-decoration: none;" href="https://goo.gl/maps/VMmFxemvZHzQ3PGn8">Populus Growshop</a>
+              </li>
+            </ul>
+          </div>
+
+          <div class="col-12 col-md-4 col-lg-4">
+            <ul>
+              <li>
+                <a target="_blank"  class="dist__button" style="text-decoration: none;" href="https://www.facebook.com/pg/magicgarden420/posts/">Magic Garden</a>
+              </li>
+              <li>
+                <a target="_blank"  class="dist__button" style="text-decoration: none;" href="https://cultibaires.com.ar/shop">Cultibaires Growshop</a>
+              </li>
+              <li>
+                <a target="_blank"  class="dist__button" style="text-decoration: none;" href="https://goo.gl/maps/gkAaFasy9nrfb3qi8">G & A Growshop</a>
+              </li>
+              <li>
+                <a target="_blank"  class="dist__button" style="text-decoration: none;" href="https://goo.gl/maps/NKaYKLr7dziMxpbU7">Esmerald Growshop</a>
+              </li>
+            </ul>
+          </div>
+
+        </div>
+      </div>
+
     </section>
 
-    <section class="products__information">
-        <div class="products__presentation">
-            <div class="detail__photo">
-                <div class="flip-card">
-                    <div class="flip-card-inner">
-                        <div class="flip-card-front">
-                            <img src="assets/Fotos de producto/Frente bidon 5 litros con hojas.png" alt="">
-                        </div>
-                        <div class="flip-card-back">
-                            <a href="assets/Fotos de producto/Dorso 5 Lts detail.jpg" data-lightbox="image-1" data-alt="Natural Grow logo">
-                                <img src="assets/Fotos de producto/Dorso 5 Lts.jpg" alt="#">
-                            </a>
-                        </div>
-                    </div>
-                </div>
+    <section class="info">
+      <h2 class="info__text"> Sumáte a nuestra comunidad </h2>
+      <div class="container">
+        <div class="row">
+          <div class="col-12 col-md-6 col-lg-6">
+            <p>What is Lorem Ipsum?
+              Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the
+              industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and
+              scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into
+              electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release
+              of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software
+              like Aldus PageMaker including versions of Lorem Ipsum</p>
+            <div class="center">
+              <a id="boton__info" target="_blank" type="button" href="nosotros.html">Más información <i class="fas fa-leaf"></i></a>
             </div>
-            <div class="detail__description">
-                <span class="description__title">
-                    <h4>Descripción</h4>
+          </div>
+          <div class="col-12 col-md-6 col-lg-6">
+            <img class="info__image" src="assets/imagenes/info.jpeg" alt="info">
+          </div>
+        </div>
+      </div>
+    </section>
+
+  </main>
+
+  <!-- fin main  -->
+  
+  <footer class="footer">
+    <div class="container">
+        <div class="row">
+            <div class="col footer__content footer__content--introduction">
+                <a href="../index.html">
+                    <img src="../assets/Logos/Logo.png" alt="Logo NaturalGrow">
+                </a>
+                <p>Somos un equipo de emprendedores formado de manera multidisciplinaria que trabajamos juntos para algo que realmente creemos que vale la pena: generar vida.</p>
+            </div>
+            <div class="col footer__content footer__content--contact">
+                <span class="content__title content_title--contact">
+                    Contacto <i class="fas fa-leaf leaf"></i>
                 </span>
-                <ul class="description__list">
+                <ul>
                     <li>
-                        <i class="far fa-check-square check"></i>
-                        <p>Humi contiene Plasma Marino que le aporta más de 75 minerales, algo que ningún otro fertilizante ofrece, y es ultraconcentrado.</p>
+                        <a href="https://web.whatsapp.com/send?phone=541123263133&text=Hola,%20reci%C3%A9n%20estuve%20en%20su%20sitio%20web" target="_blank">
+                            <i class="fab fa-whatsapp footer__icon"></i>
+                            <span>+ 54 11 5326-8722</span>
+                        </a>
                     </li>
                     <li>
-                        <i class="far fa-check-square check"></i>
-                        <p>Está diseñado especialmente para su uso en cultivo de Cannabis, y cuenta con los Micronutrientes y Macronutrientes necesarios para la nutrición completa del cultivo.</p>
+                        <a href="https://www.instagram.com/naturalgrowarg/" target="_blank">
+                            <i class="fab fa-instagram footer__icon"></i>
+                            <span>naturalgrowarg</span>
+                        </a>
                     </li>
                     <li>
-                        <i class="far fa-check-square check"></i>
-                        <p>Si estás buscando que tu planta mejore en tamaño, olor y pegue, Humi es la mejor opción que podés encontrar.</p>
+                        <a href="https://www.facebook.com/naturalgrowarg" target="_blank">
+                            <i class="fab fa-facebook footer__icon"></i>
+                            <span>Natural Grow</span>
+                        </a>
                     </li>
                     <li>
-                        <i class="far fa-check-square check"></i>
-                        <p>Además, es útil para todo el ciclo de vida de la planta (Full Spectrum).</p>
+                        <a href="mailto:info@naturalgrow.com.ar" target="_blank">
+                            <i class="far fa-envelope footer__icon"></i>
+                            <span>info@naturalgrow.com.ar</span>
+                        </a>
                     </li>
                 </ul>
             </div>
-            <div class="detail__additional-info">
-                <a href="assets/Informacion-Nutricional.pdf" target="_blank">Información nutricional<i class="fas fa-leaf leaf"></i></a>
-                <a href="assets/Informacion-de-producto-Humi-Natural-Grow.pdf" target="_blank">Más información<i class="fas fa-leaf leaf"></i></a>
+            <div class="col d-none d-lg-block footer__content footer__content--ofrecemos">
+                <span class="content__title">Qué ofrecemos <i class="fas fa-leaf leaf leaf1"></i></span>
+                <ul>
+                    <li>Todos los productos que tus plantas pueden necesitar según su etapa y condición.</li>
+                    <li>Asesoramiento personalizado para el desarrollo adecuado de tu cultivo.</li>
+                    <li>Ser parte de la comunidad de argentina más grande de cultivo de cannabis.</li>
+                </ul>
             </div>
         </div>
-    </section>
-
-    <section class="products__display">
-        <div class="display__title">
-            <h3><i class="fas fa-leaf leaf leaf1"></i> Conoce nuestros productos <i class="fas fa-leaf leaf"></i></h3>
-            <h4>Humi</h4>
-            <p>Fertilizante 100% orgánico</p>
-            <div class="back__banner"></div>
-        </div>
-        <div class="display__container">
-            <div class="product__item">
-                <div class="item__content product1">
-                    <img src="assets/Fotos de producto/Botella 1 litro frente sin fondo 500px X 500px.png"/>
-                    <p>Botella 1 litro</p>
-                </div>
-                <a class="item__button" href="https://articulo.mercadolibre.com.ar/MLA-867081852-humi-fertilizante-100-organico-lixiviado-humus-liquido-_JM?quantity=1">Comprar <i class="fas fa-leaf leaf"></i></a>
-            </div>
-            <div class="product__item product2">
-                <div class="item__content">
-                    <img src="assets/Fotos de producto/Frente bidon 5 litros con hojas.png"/>
-                    <p>Bidón 5 litros</p>
-                </div>
-                <a class="item__button" href="https://articulo.mercadolibre.com.ar/MLA-866634954-humi-fertilizante-100-organico-lixiviado-humus-liquido-_JM?quantity=1#position=4&type=item&tracking_id=679f31ee-8f55-46e9-8b19-e77d2ac316b4">Comprar <i class="fas fa-leaf leaf"></i></a>
-            </div>
-        </div>
-    </section>
-
-    <footer class="footer">
-        <div class="container">
-            <div class="row">
-                <div class="col footer__content footer__content--introduction">
-                    <a href="index.html">
-                        <img src="assets/Logos/Logo.png" alt="">
-                    </a>
-                    <p>Somos un equipo de emprendedores formado de manera multidisciplinaria que trabajamos juntos para algo que realmente creemos que vale la pena: generar vida.</p>
-                </div>
-                <div class="col footer__content footer__content--contact">
-                    <span class="content__title content_title--contact">
-                        Contacto <i class="fas fa-leaf leaf"></i>
-                    </span>
-                    <ul>
-                        <li>
-                            <a href="https://web.whatsapp.com/send?phone=541123263133&text=Hola,%20reci%C3%A9n%20estuve%20en%20su%20sitio%20web" target="_blank">
-                                <i class="fab fa-whatsapp footer__icon"></i>
-                                <span>+ 54 11 5326-8722</span>
-                            </a>
-                        </li>
-                        <li>
-                            <a href="https://www.instagram.com/naturalgrowarg/" target="_blank">
-                                <i class="fab fa-instagram footer__icon"></i>
-                                <span>naturalgrowarg</span>
-                            </a>
-                        </li>
-                        <li>
-                            <a href="https://www.facebook.com/naturalgrowarg" target="_blank">
-                                <i class="fab fa-facebook footer__icon"></i>
-                                <span>Natural Grow</span>
-                            </a>
-                        </li>
-                        <li>
-                            <a href="mailto:info@naturalgrow.com.ar" target="_blank">
-                                <i class="far fa-envelope footer__icon"></i>
-                                <span>info@naturalgrow.com.ar</span>
-                            </a>
-                        </li>
-                    </ul>
-                </div>
-                <div class="col d-none d-lg-block footer__content footer__content--ofrecemos">
-                    <span class="content__title">Qué ofrecemos <i class="fas fa-leaf leaf leaf1"></i></span>
-                    <ul>
-                        <li>Todos los productos que tus plantas pueden necesitar según su etapa y condición.</li>
-                        <li>Asesoramiento personalizado para el desarrollo adecuado de tu cultivo.</li>
-                        <li>Ser parte de la comunidad de argentina más grande de cultivo de cannabis.</li>
-                    </ul>
-                </div>
-            </div>
-        </div>
-    </footer>
-</body>
+    </div>
+  </footer>
 </html>

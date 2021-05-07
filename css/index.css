@@ -1,0 +1,156 @@
+
+/* estilos carousel */
+
+.carousel-inner .carousel-item img {
+    width: 100vw !important;
+    height: 780px;
+    object-fit: cover;
+}
+/* efecto en portada sepia y scale  */
+.carousel-inner .carousel-item img:hover{
+   transition: 2s;
+   transform: scale(1.2);
+   filter: sepia(0.5);
+}
+
+/* efectos boton portada */
+
+.carousel-caption p {
+    margin-bottom: 50px;
+}
+
+#boton_portada{
+    padding: 10px 20px;
+    background-color: #32751C;
+    color: white;
+    font-size: 1em;
+    border-radius: 1.5em;
+    text-align: center;
+    border: 1px solid #6B9127 ;
+    text-decoration: none;
+}
+
+#boton_portada:hover{
+    background-color:#6B9127 ;
+} 
+
+/* fin efectos carousel */
+
+.distribuidores {
+    position: relative;
+    margin: 5em 0em;
+}
+
+.distribuidor:hover {
+    transform: scale(1.08);
+    transition: 0.5s;
+}
+
+.distribuidores__text {
+    margin-bottom: 2em;
+    text-align: center;
+    color: #32751C;
+    font-family: 'Recursive',sans-serif;
+}
+
+.distribuidores__name {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 10px;
+    border-bottom: 4px solid #32751C;
+    border-radius: 30px 30px 0px 0px;
+}
+
+.distribuidores__name {
+    box-shadow: 0px 0px 5px silver;
+}
+
+.name__margin h6 {
+    margin-left: 12px;
+}
+
+.distribuidores iframe{
+    margin-bottom: 2em;
+    filter: grayscale(0.60);
+    width: 100% !important;
+    border-radius: 0px 0px 5px 5px;
+    box-shadow: 0px 0px 5px silver;
+}
+
+.distribuidores iframe:hover{
+    filter: grayscale(0.00);
+}
+
+.mas__distribuidores h4 {
+    margin: 30px 0px 50px 0px !important;
+}
+
+.mas__distribuidores {
+    width: 70%;
+    text-align: center;
+    padding-bottom: 50px;
+    border-bottom: 2px solid #6B9127;
+}
+
+.mas__distribuidores h4 {
+    text-align: center;
+    color: #32751C;
+}
+
+.mas__distribuidores li {
+    list-style-type: none;
+}
+
+.dist__image{
+    width: 4em;
+    height: 3.5em;
+    border-radius: 50px;
+}
+
+.dist__button{
+  color: #38AB63;
+}
+
+li .dist__button:hover{
+    color:#32751C ;
+
+}
+
+.info {
+    margin-bottom: 80px;
+}
+
+.info__text{
+    text-align: center;
+    margin-top: 2em;
+    margin-bottom: 2em;
+    color: #6B9127;
+    font-family: 'Recursive',sans-serif;
+}
+
+.info__image {
+    width: 100%;
+
+}
+
+
+.center{
+    text-align: center;
+    margin: 30px 0px;
+}
+
+#boton__info {
+    padding: 10px 20px;
+    background-color: #32751C;
+    color: white;
+    font-size: 1em;
+    border-radius: 1.5em;
+    text-align:center;
+    border: 1px solid #6B9127 ;
+    text-decoration: none;
+}
+
+#boton__info:hover{
+    background-color:#6B9127 ;
+}
