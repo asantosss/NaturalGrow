@@ -13,5 +13,4 @@ mail($mail,"Contacto desde web",$contenido);
 
 header("Location: index.html");
     
-    
-    ?>
+?>
