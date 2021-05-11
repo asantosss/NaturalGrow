@@ -1,6 +1,6 @@
 <?php
 
-$mail ="aleejandro.santos@gmail.com"
+$mail ="aleejandro.santos@gmail.com";
 
 $nombre=$_POST["name"];
 $correo=$_POST["email"];
