@@ -11,6 +11,5 @@ $contenido = "Apellido y Nombre: ".$nombre . "\nCorreo: " .$correo . "\nTeléfon
 
 mail($mail,"Contacto desde web",$contenido);
 
-header("Location: index.html");
-    
+header("Location:index.html");
 ?>
